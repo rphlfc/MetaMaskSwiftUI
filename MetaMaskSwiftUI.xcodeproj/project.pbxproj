@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D5CBF0C275D19D500F3EEA0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3D5CBF0B275D19D500F3EEA0 /* README.md */; };
 		3DB31A1E275BD15F00951F4E /* MetaMaskSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB31A1D275BD15F00951F4E /* MetaMaskSwiftUIApp.swift */; };
 		3DB31A20275BD15F00951F4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB31A1F275BD15F00951F4E /* ContentView.swift */; };
 		3DB31A22275BD16700951F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB31A21275BD16700951F4E /* Assets.xcassets */; };
 		3DB31A25275BD16700951F4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB31A24275BD16700951F4E /* Preview Assets.xcassets */; };
+		3DB31A2D275C07F600951F4E /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB31A2C275C07F600951F4E /* MenuItem.swift */; };
+		3DB31A2F275C0B1E00951F4E /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB31A2E275C0B1E00951F4E /* Coin.swift */; };
+		3DB31A31275C112500951F4E /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB31A30275C112500951F4E /* TabItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D5CBF0B275D19D500F3EEA0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3DB31A1A275BD15F00951F4E /* MetaMaskSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaMaskSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB31A1D275BD15F00951F4E /* MetaMaskSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaMaskSwiftUIApp.swift; sourceTree = "<group>"; };
 		3DB31A1F275BD15F00951F4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3DB31A21275BD16700951F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DB31A24275BD16700951F4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DB31A2C275C07F600951F4E /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		3DB31A2E275C0B1E00951F4E /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		3DB31A30275C112500951F4E /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,7 @@
 		3DB31A11275BD15F00951F4E = {
 			isa = PBXGroup;
 			children = (
+				3D5CBF0B275D19D500F3EEA0 /* README.md */,
 				3DB31A1C275BD15F00951F4E /* MetaMaskSwiftUI */,
 				3DB31A1B275BD15F00951F4E /* Products */,
 			);
@@ -51,6 +60,7 @@
 		3DB31A1C275BD15F00951F4E /* MetaMaskSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				3DB31A2B275C07E400951F4E /* Models */,
 				3DB31A1D275BD15F00951F4E /* MetaMaskSwiftUIApp.swift */,
 				3DB31A1F275BD15F00951F4E /* ContentView.swift */,
 				3DB31A21275BD16700951F4E /* Assets.xcassets */,
@@ -65,6 +75,16 @@
 				3DB31A24275BD16700951F4E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3DB31A2B275C07E400951F4E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DB31A2C275C07F600951F4E /* MenuItem.swift */,
+				3DB31A2E275C0B1E00951F4E /* Coin.swift */,
+				3DB31A30275C112500951F4E /* TabItem.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D5CBF0C275D19D500F3EEA0 /* README.md in Resources */,
 				3DB31A25275BD16700951F4E /* Preview Assets.xcassets in Resources */,
 				3DB31A22275BD16700951F4E /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB31A2D275C07F600951F4E /* MenuItem.swift in Sources */,
 				3DB31A20275BD15F00951F4E /* ContentView.swift in Sources */,
+				3DB31A2F275C0B1E00951F4E /* Coin.swift in Sources */,
+				3DB31A31275C112500951F4E /* TabItem.swift in Sources */,
 				3DB31A1E275BD15F00951F4E /* MetaMaskSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
